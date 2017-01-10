@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HelpYou * поможем вам. Создайте задание</title>
+<link rel="shortcut icon" type="image/x-icom" href=" ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="all" />
+<meta name="description" content="HelpYou - портал который поможет вам с любыми нужными вам задачами, а также дает возможность заработать вам выполняя задания других участников.">
+<meta name="keywords" content=" ">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-modal.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/spoyler.js"></script>
+</head>
+
+<body>
+<header class="header">
+	<div class="row">
+
+	<div class="logo"><a href="index.html"><img src="img/help_balloon.png"></a></div>
+    <div class="manu">
+	
+		<ul class="dropdown">
+		<li class="dropdown-top">
+			<a class="dropdown-top">Создать задание &#9660 </a>
+			<ul class="dropdown-inside">
+				<li><a href="newtask.html">Услуги курьера</a></li>
+				<li><a href="newtask.html">Ремонт помищений</a></li>
+				<li><a href="newtask.html">Отдаленой помощник</a></li>
+				<li><a href="newtask.html">ИТ помощ</a></li>
+				<li><a href="newtask.html">Грузоперевозки</a></li>
+                <li><a href="newtask.html">Ремонт транспорта</a></li>
+				<li><a href="newtask.html">Помощ по дому</a></li>
+				<li><a href="newtask.html">WEB разработка</a></li>
+				<li><a href="newtask.html">Фото, видео услуги</a></li>
+				<li><a href="newtask.html">Красота и здоровье</a></li>
+                <li><a href="newtask.html">Репетиторство</a></li>
+				<li><a href="newtask.html">Ремонт техники</a></li>
+				<li><a href="newtask.html">Мероприятия</a></li>
+                <li><a href="newtask.html">Другое</a></li>
+			</ul>
+		</li>
+	</ul>
+    </div>
+    <div class="work_header"><a href="alltask.html">Все задания</a><a href="#">Исполнители</a></div>
+    <div class="registration_header"><a href="#win1">Реестрация</a><a href="#win2">Вход</a></div>
+    </div>
+</header>
+<aside class="main">
+ <!-- Модальное окно 1 -->
+	<a href="#x" class="overlay" id="win1"></a>
+        <div class="popup">
+           
+            <h2>Реестрация</h2>
+			
+            <form id="name_registr" name="contact" method="post" >
+     			
+      			<div class="row">
+       			 <label for="name"><span class="req"></span></label>
+      			  <input type="text" name="name" id="name" class="txt"  placeholder="Login" required>
+                  
+     					 </div>
+	  
+     					 <div class="row">
+      			  <label for="email"> <span class="req"></span></label>
+                     <input type="email" name="email" id="email" class="txt" placeholder="E-mail" required>
+				 </div>
+      
+     				 <div class="row">
+     			   <label for="phone"> <span class="req"></span></label>
+      			  <input type="text" name="phone" id="phone" class="txt"  placeholder="Ваш телефон" required>
+    			  </div>
+      
+     			 <div class="row">
+      			  <label for="password"><span class="req"></span></label>
+      			  <input type="text" name="phone" id="password" class="txt"  placeholder="Пароль" required>
+     			 </div>
+                 
+                 <div class="row">
+      			  <label for="re_password"><span class="req"></span></label>
+      			  <input type="text" name="phone" id="re_password" class="txt"  placeholder="Повторитое пароль" required>
+     			 </div>
+      
+      			<div class="center">
+      			  <input type="submit" id="submitbtn" name="submitbtn" value="Зарегистрироваться">
+     			 </div>
+    			</form>
+            
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        
+        
+        
+        
+        
+       <!-- Модальное окно 2 -->
+	<a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+           
+            <h2>Вход</h2>
+			<form id="form_enter" name="contact" method="post" >
+     	
+      			<div class="row">
+       			 <label for="mail_enter"><span class="req"></span></label>
+      			  <input type="text" name="mail_enter" id="mail_enter" class="txt"  placeholder="E-mail" required>
+     					 </div>
+	  
+     					 <div class="row">
+      			  <label for="email_enter"><span class="req"></span></label>
+     				   <input type="email" name="email_enter" id="email_enter" class="txt"  placeholder="Пароль" required>
+     			 </div>
+      
+   
+      
+      			<div class="center">
+      			  <input class="buttom" type="submit" id="submitbtn_enter" name="submitbtn_enter"  value="Войти">
+     			 </div>
+                 <a href="task.html"> Забил пароль?</a>
+    			</form>
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>  
+        
+        
+      
+        
+<!------------------                                                          ------------------------------------->
+	<div class="task_background">
+	<div class="header_alltask">
+    <div class="row">
+ 	<p>HelpMe позволяет быстро находить надёжных людей для выполнения любой работы и поручений во Львове и других городах Украины.</p>
+<p>Попробуйте <a href="newtask.html">создать свое задание</a> или посмотрите <a href="alltask.html">примеры других задач</a>, которые уже сейчас успешно решают пользователи HelpMe.</p>
+
+    </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20584.51051808322!2d24.029028603189232!3d49.841258449637174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1483456439185" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="header_alltask_info_head">
+    <div class="row">
+    
+    <div class="header_alltask_info_head_h3">
+    <h3>срочная доставка</h3>
+    </div>
+    <div class="header_alltask_info_head_h3_right">
+   	<p>400 грн</p>
+    </div>
+    </div>
+    <p>Выполнено</p><p>87 просмотров</p><p>Создано 2 ч. 2 мин. назад</p><p>Купить и доставить</p>
+    </div>
+    <div class="task_table">
+    <table>
+    	<tr>
+    		<td><strong>Адрес:</strong></td>
+            <td>улица Островитянова 34, Москва, город Москва</td>
+  		</tr>
+        <tr>
+    		<td><strong>Завершить</strong></td>
+            <td>4 января 2017 , 17:00</td>
+  		</tr>
+        <tr>
+    		<td><strong>Стоимость</strong></td>
+            <td>400 грн</td>
+  		</tr>
+        <tr>
+    		<td><strong>Нужно</strong></td>
+            <td>актуально для  "быстрых" и рядом живущих  (проживающих в коньково или рядом) купить в магазине виктория или перекресток  (метро коньково) и доставить шампанское (лучше полусухое) и набор пирожных или ассорти или «картошка» (6 штучек в коробочке)
+это по бюджету где-то 1100-1200
+за доставку 300-400 (общий бюджет 1500)
+отдам наличными курьеру</td>
+  		</tr>
+        <tr>
+    		<td><strong>Вес:</strong></td>
+            <td>до 3 кг</td>
+  		</tr>
+        <tr>
+    		<td><strong>Доп. условия:</strong></td>
+            <td>Исполнитель должен иметь документы для оформления расписки.</td>
+  		</tr>
+    </table>
+    </div>
+    <div class="table_bottom">
+    <p>Если вы хотите получить подобную услугу</p>
+    <a href="newtask.html">Создайте задание</a>
+    <a href="#win3">Станьте исполнителем</a>
+    </div>
+    
+     <!-- Модальное окно 3 -->
+	<a href="#x" class="overlay" id="win3"></a>
+        <div class="popup">
+           
+            <h2>Информация о закащике</h2>
+		 <p>ето окно будет показиватся ток после авторизации</p>
+    <div class="info_customer_head">
+    
+    <img src="img/get.jpg" height="120" width="120">
+    <p>Vladimir</p>
+    <p>Отзывы: 8</p>
+    <p>Львов, АДРЕС С ЗАКАЗУ БЕРЁМ    </p>
+    </div>
+    <div class="row">
+    <div class="info_customer_bottom">
+    <h3>Информация проверена нами<h3>
+    <div class="row">
+    <div class="info_customer_bottom_phone"><h5>E-mail:</h5><a href="mailto:mail@gmail.com">mail@gmail.com</a></div></div>
+     <div class="row">
+    <div class="info_customer_bottom_mail"><h5>Тел:</h5><a href="tel:+380980000000">+380980000000</a></div></div>
+    </div>
+    </div>
+    
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>  
+        
+    
+
+</div>
+
+</aside>
+
+<footer class="footer">
+<div class="row">
+<div class="foter_main">.</div>
+<div class="footer_info">
+<p>+38 (098) 979 10 73</p>
+
+<br>
+<p>пн.-пт 9:00 — 23:00</p>
+<p>сб.-вс 9:00 — 21:00</p>
+<br>
+<p>Эл. почта: busk.yura@gmai.com</p>
+</div>
+<div class="map">
+
+
+</div>
+<div class="content-container"></div>
+
+</div>
+
+</footer>
+
+
+</body>
+</html>

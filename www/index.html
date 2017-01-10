@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HelpYou * поможем вам. Создайте задание</title>
+<link rel="shortcut icon" type="image/x-icom" href=" ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="all" />
+<meta name="description" content="HelpYou - портал который поможет вам с любыми нужными вам задачами, а также дает возможность заработать вам выполняя задания других участников.">
+<meta name="keywords" content=" ">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-modal.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<header class="header">
+	<div class="row">
+
+	<div class="logo"><a href="index.html"><img src="img/help_balloon.png"></a></div>
+    <div class="manu">
+	
+		<ul class="dropdown">
+		<li class="dropdown-top">
+			<a class="dropdown-top">Создать задание &#9660 </a>
+			<ul class="dropdown-inside">
+				<li><a href="newtask.html">Услуги курьера</a></li>
+				<li><a href="newtask.html">Ремонт помищений</a></li>
+				<li><a href="newtask.html">Отдаленой помощник</a></li>
+				<li><a href="newtask.html">ИТ помощ</a></li>
+				<li><a href="newtask.html">Грузоперевозки</a></li>
+                <li><a href="newtask.html">Ремонт транспорта</a></li>
+				<li><a href="newtask.html">Помощ по дому</a></li>
+				<li><a href="newtask.html">WEB разработка</a></li>
+				<li><a href="newtask.html">Фото, видео услуги</a></li>
+				<li><a href="newtask.html">Красота и здоровье</a></li>
+                <li><a href="newtask.html">Репетиторство</a></li>
+				<li><a href="newtask.html">Ремонт техники</a></li>
+				<li><a href="newtask.html">Мероприятия</a></li>
+                <li><a href="newtask.html">Другое</a></li>
+			</ul>
+		</li>
+	</ul>
+    </div>
+    <div class="work_header"><a href="alltask.html">Все задания</a><a href="#">Исполнители</a></div>
+    <div class="registration_header"><a href="#win1">Реестрация</a><a href="#win2">Вход</a></div>
+    </div>
+</header>
+<aside class="main">
+ <!-- Модальное окно 1 -->
+	<a href="#x" class="overlay" id="win1"></a>
+        <div class="popup">
+           
+            <h2>Реестрация</h2>
+			
+            <form id="name_registr" name="contact" method="post" >
+     			
+      			<div class="row">
+       			 <label for="name"><span class="req"></span></label>
+      			  <input type="text" name="name" id="name" class="txt"  placeholder="Login" required>
+                  
+     					 </div>
+	  
+     					 <div class="row">
+      			  <label for="email"> <span class="req"></span></label>
+                     <input type="email" name="email" id="email" class="txt" placeholder="E-mail" required>
+				 </div>
+      
+     				 <div class="row">
+     			   <label for="phone"> <span class="req"></span></label>
+      			  <input type="text" name="phone" id="phone" class="txt"  placeholder="Ваш телефон" required>
+    			  </div>
+      
+     			 <div class="row">
+      			  <label for="password"><span class="req"></span></label>
+      			  <input type="text" name="phone" id="password" class="txt"  placeholder="Пароль" required>
+     			 </div>
+                 
+                 <div class="row">
+      			  <label for="re_password"><span class="req"></span></label>
+      			  <input type="text" name="phone" id="re_password" class="txt"  placeholder="Повторитое пароль" required>
+     			 </div>
+      
+      			<div class="center">
+      			  <input type="submit" id="submitbtn" name="submitbtn" value="Зарегистрироваться">
+     			 </div>
+    			</form>
+            
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        
+        
+        
+        
+        
+       <!-- Модальное окно 2 -->
+	<a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+           
+            <h2>Вход</h2>
+			<form id="form_enter" name="contact" method="post" >
+     			
+      			<div class="row">
+       			 <label for="mail_enter"><span class="req"></span></label>
+      			  <input type="text" name="mail_enter" id="mail_enter" class="txt"  placeholder="E-mail" required>
+     					 </div>
+	  
+     					 <div class="row">
+      			  <label for="email_enter"><span class="req"></span></label>
+     				   <input type="email" name="email_enter" id="email_enter" class="txt"  placeholder="Пароль" required>
+     			 </div>
+      
+   
+      
+      			<div class="center">
+      			  <input class="buttom" type="submit" id="submitbtn_enter" name="submitbtn_enter"  value="Войти">
+     			 </div>
+                 <a href="profile.html"> Забил пароль?</a>
+    			</form>
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>  
+        
+        
+        
+        
+<!------------------                                                          ------------------------------------->
+<div class="row">
+<div  class="img">
+<div class="order_service">
+	<h3>Заказать услугу прямо сичас!!!</h3>
+	<p>HelpMe - поможет вам найти надежного исполнителя вашей задачи в кратчайшие сроки.</p>
+    <a href="newtask.html">Заказать услугу</a>
+    <p></p>
+    <a href="alltask.html">Виконать заказ</a>
+</div>
+</div>
+
+<div class="description">
+	<h2>мы поможем вам сохранить ваши время и деньги.</h2>
+    <div class="row">
+	<div class="map_helpme">
+     <img src="img/zadacha.png">
+    <h3>Создайте задание</h3>
+    <p>Создайте задачу которою нужно выполнить для вас.</p>
+   	<a href="newtask.html">Создайте задание</a>
+    </div>
+    </div>
+    <div class="row">
+    <div class="map_ican">
+    <img src="img/helpssss.png" >
+    <h3>Исполнители предложат вам свои услуги и цены</h3>
+    <p>Уже через пару минут вы начнете получать предложения от исполнителей, готовых выполнить ваше задание.</p>
+    </div>
+    
+    </div>
+    
+    <div class="row">
+    <div class="photo">
+    <img src="img/lider.png" >
+    <h3> Выберите лучшее предложение</h3>
+    <p>Вы сможете выбрать подходящего исполнителя, по разным критериям:</p>
+
+	<div class="characteristic">
+    <div class="row">
+    <div class="characteristic_second"><img src="img/hr.png">Стоимость услуг</div>
+    <div class="characteristic_second"><img src="img/Like_icon.png">Отзывы заказчиков</div>
+    </div>
+    <div class="row">
+    <div class="characteristic_second"><img src="img/star.png">Рейтинг</div>
+    <div class="characteristic_second"><img src="img/person.png">Примеры работ</div>
+	</div>
+	</div>
+    </div>
+    </div>
+</div>
+<div class="row">
+	<div class="profit">
+	<img src="img/profit.png">
+    <h2>Основные преимущества HelpMe:</h2>
+    <div class="profit_second"><img src="img/graph_znak.jpg">
+   <h3> Выгодные цены</h3>
+	<p>У частных исполнителей нет расходов на офис, рекламу, зарплату секретарю и других затрат, которые сервисные компании обычно включают в стоимость своих услуг.</p>
+    </div>
+    <div class="profit_second"><img src="img/laik_new.jpg">
+   	<h3> Проверенные исполнители</h3>
+	<p>Все исполнители HelpMe проходят процедуру верификации, мы проверяем отзывы, разбираемся с жалобами и контролируем качество их работы.</p>
+    </div>
+    <div class="profit_second"><img src="img/time.png">
+   	<h3> Экономия времени</h3>
+	<p>На HelpMe вы можете найти подходящего исполнителя за несколько минут. Многие из них готовы приступить к работе в тот же день, а иногда в тот же час.</p>
+    </div>
+	</div>
+    </div>
+</div>
+</aside>
+
+<footer class="footer">
+<div class="row">
+<div class="foter_main">.</div>
+<div class="footer_info">
+<p>+38 (098) 979 10 73</p>
+
+<br>
+<p>пн.-пт 9:00 — 23:00</p>
+<p>сб.-вс 9:00 — 21:00</p>
+<br>
+<p>Эл. почта: busk.yura@gmai.com</p>
+</div>
+<div class="map">
+
+
+</div>
+<div class="content-container"></div>
+
+</div>
+
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HelpYou * поможем вам. Создайте задание</title>
+<link rel="shortcut icon" type="image/x-icom" href=" ">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="all" />
+<meta name="description" content="HelpYou - портал который поможет вам с любыми нужными вам задачами, а также дает возможность заработать вам выполняя задания других участников.">
+<meta name="keywords" content=" ">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-modal.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/spoyler.js"></script>
+</head>
+
+<body>
+<header class="header">
+	<div class="row">
+
+	<div class="logo"><a href="index.html"><img src="img/help_balloon.png"></a></div>
+    <div class="manu">
+	
+		<ul class="dropdown">
+		<li class="dropdown-top">
+			<a class="dropdown-top">Создать задание &#9660 </a>
+			<ul class="dropdown-inside">
+				<li><a href="newtask.html">Услуги курьера</a></li>
+				<li><a href="newtask.html">Ремонт помищений</a></li>
+				<li><a href="newtask.html">Отдаленой помощник</a></li>
+				<li><a href="newtask.html">ИТ помощ</a></li>
+				<li><a href="newtask.html">Грузоперевозки</a></li>
+                <li><a href="newtask.html">Ремонт транспорта</a></li>
+				<li><a href="newtask.html">Помощ по дому</a></li>
+				<li><a href="newtask.html">WEB разработка</a></li>
+				<li><a href="newtask.html">Фото, видео услуги</a></li>
+				<li><a href="newtask.html">Красота и здоровье</a></li>
+                <li><a href="newtask.html">Репетиторство</a></li>
+				<li><a href="newtask.html">Ремонт техники</a></li>
+				<li><a href="newtask.html">Мероприятия</a></li>
+                <li><a href="newtask.html">Другое</a></li>
+			</ul>
+		</li>
+	</ul>
+    </div>
+    <div class="work_header"><a href="alltask.html">Все задания</a><a href="#">Исполнители</a></div>
+    <div class="registration_header"><a href="#win1">Реестрация</a><a href="#win2">Вход</a></div>
+    </div>
+</header>
+<aside class="main">
+ <!-- Модальное окно 1 -->
+	<a href="#x" class="overlay" id="win1"></a>
+        <div class="popup">
+           
+            <h2>Реестрация</h2>
+			
+            <form id="name_registr" name="contact" method="post" >
+     			
+      			<div class="row">
+       			 <label for="name"><span class="req"></span></label>
+      			  <input type="text" name="name" id="name" class="txt"  placeholder="Login" required>
+                  
+     					 </div>
+	  
+     					 <div class="row">
+      			  <label for="email"> <span class="req"></span></label>
+                     <input type="email" name="email" id="email" class="txt" placeholder="E-mail" required>
+				 </div>
+      
+     				 <div class="row">
+     			   <label for="phone"> <span class="req"></span></label>
+      			  <input type="text" name="phone" id="phone" class="txt"  placeholder="Ваш телефон" required>
+    			  </div>
+      
+     			 <div class="row">
+      			  <label for="password"><span class="req"></span></label>
+      			  <input type="text" name="phone" id="password" class="txt"  placeholder="Пароль" required>
+     			 </div>
+                 
+                 <div class="row">
+      			  <label for="re_password"><span class="req"></span></label>
+      			  <input type="text" name="phone" id="re_password" class="txt"  placeholder="Повторитое пароль" required>
+     			 </div>
+      
+      			<div class="center">
+      			  <input type="submit" id="submitbtn" name="submitbtn" value="Зарегистрироваться">
+     			 </div>
+    			</form>
+            
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>
+        
+        
+        
+        
+        
+       <!-- Модальное окно 2 -->
+	<a href="#x" class="overlay" id="win2"></a>
+        <div class="popup">
+           
+            <h2>Вход</h2>
+			<form id="form_enter" name="contact" method="post" >
+     	
+      			<div class="row">
+       			 <label for="mail_enter"><span class="req"></span></label>
+      			  <input type="text" name="mail_enter" id="mail_enter" class="txt"  placeholder="E-mail" required>
+     					 </div>
+	  
+     					 <div class="row">
+      			  <label for="email_enter"><span class="req"></span></label>
+     				   <input type="email" name="email_enter" id="email_enter" class="txt"  placeholder="Пароль" required>
+     			 </div>
+      
+   
+      
+      			<div class="center">
+      			  <input class="buttom" type="submit" id="submitbtn_enter" name="submitbtn_enter"  value="Войти">
+     			 </div>
+                 <a href="profile.html"> Забил пароль?</a>
+    			</form>
+            
+			<a class="close" title="Закрыть" href="#close"></a>
+        </div>  
+        
+        
+      
+        
+<!------------------                                                          ------------------------------------->
+	<div class="task_background">
+	<div class="header_newtask">
+    <div class="row">
+ 	<h1>Вам нужна помощь?</h1>
+    <div class="header_newtask_second"><div class="number"><h2>1</h2></div><h3>Заполните заявку</h3><p>Мы быстро оповестим исполнителей 
+HelpMe о вашей заявке.</p></div>
+    <div class="header_newtask_second"><div class="number"><h2>2</h2></div><h3>Получите предложения</h3><p>Заинтересованные исполнители предложат вам
+свои услуги.</p></div>
+    <div class="header_newtask_second"><div class="number"><h2>3</h2></div><h3>Выберите исполнителя</h3><p>Выберите подходящее для вас
+предложение по цене или рейтингу исполнителя.</p></div>
+    </div>
+</div>
+	<div class="newtask_main">
+    
+    <h2>Заполните заявку</h2>
+    
+    
+   
+
+    
+ <a class="dynamic" href="#" onclick="$('.spoiler').toggle();return false;">Задание...</a>
+<div class="spoiler">
+	<ul>
+    			<li><a href="newtask.html">Услуги курьера</a></li>
+				<li><a href="newtask.html">Ремонт помищений</a></li>
+				<li><a href="newtask.html">Отдаленой помощник</a></li>
+				<li><a href="newtask.html">ИТ помощ</a></li>
+				<li><a href="newtask.html">Грузоперевозки</a></li>
+                <li><a href="newtask.html">Ремонт транспорта</a></li>
+				<li><a href="newtask.html">Помощ по дому</a></li>
+				<li><a href="newtask.html">WEB разработка</a></li>
+				<li><a href="newtask.html">Фото, видео услуги</a></li>
+				<li><a href="newtask.html">Красота и здоровье</a></li>
+                <li><a href="newtask.html">Репетиторство</a></li>
+				<li><a href="newtask.html">Ремонт техники</a></li>
+				<li><a href="newtask.html">Мероприятия</a></li>
+                <li><a href="newtask.html">Другое</a></li>
+			
+    </ul>
+</div>
+   
+    
+     <div class="center_form">
+    <form id="form_task_info" name="task" method="post" >
+    
+ 
+      			
+                <div class="row">
+       <label for="i_need" class="placeholder_form">Мне нужно</label>
+      	<input type="text" name="i_need" id="i_need" class="i_need_form" placeholder="необходима помощь" required>
+     					
+	 
+     	
+    <label for="i_message" class="placeholder_form"></label>
+      			  <textarea name="i_message" class="i_need_form_txt" placeholder="Например: необходима помощь юриста, который проконсультирует по покупке квартиры на вторичном рынке и будет сопровождать сделку."   id="i_message"   required></textarea>
+                  
+       <label for="i_place" class="placeholder_form">Добавить приватную информацию</label>
+      	<input type="text" name="i_place" id="i_place" class="i_need_form" placeholder="Например: квартира 39, код домофона 234, ключ под ковриком :)" required>
+        
+        
+        <label for="i_place_work" class="placeholder_form">Адрес</label>
+      	<input type="text" name="i_place_work" id="i_place_work" class="i_need_form" placeholder="Улица, дом, строение, корпус" required>
+        
+        
+         <label for="i_cost" class="placeholder_form">Укажите точную стоимость задания 
+</label>
+      	<input type="text" name="i_cost" id="i_cost" class="i_need_form" placeholder="Стоимость в Гривнах" required>
+        
+        
+         <label for="i_mail" class="placeholder_form">Ваши контакты</label>
+      	<input type="text" name="i_mail" id="i_mail" class="i_need_form" placeholder="E-mail" required>
+        
+         <label for="i_phone" class="placeholder_form"></label>
+      	<input type="text" name="i_phone" id="i_phone" class="i_need_form" placeholder="+380 ** *** ** **" required>
+        </div>
+        
+       	<div class="center">
+        <input class="buttom_need" type="submit_need" id="submitbtn_enter_need" name="submitbtn_enter"  value="Опубликовать">
+        </div>
+    			</form>
+
+   </div>
+    
+    </div>
+
+
+
+
+
+
+</div>
+</div>
+</aside>
+
+<footer class="footer">
+<div class="row">
+<div class="foter_main">.</div>
+<div class="footer_info">
+<p>+38 (098) 979 10 73</p>
+
+<br>
+<p>пн.-пт 9:00 — 23:00</p>
+<p>сб.-вс 9:00 — 21:00</p>
+<br>
+<p>Эл. почта: busk.yura@gmai.com</p>
+</div>
+<div class="map">
+
+
+</div>
+<div class="content-container"></div>
+
+</div>
+
+</footer>
+
+
+</body>
+</html>
